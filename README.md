@@ -17,7 +17,7 @@ This repository contains programs in the C programming language related to Data 
 
 <centre><h1>C Programming Features</h1></centre>
 <br>
-<img src="https://tutorialforbeginner.com/images/tutorial/features-of-c.png" height=400 width=650>
+<img src="https://github.com/madhurimarawat/Data-structure-using-C/assets/105432776/3d99adf0-a064-4ded-a54e-0b930869c9d4" height=400 width=650>
 
 ---
 
