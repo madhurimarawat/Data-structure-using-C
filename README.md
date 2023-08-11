@@ -1,5 +1,6 @@
 # Data-structure-using-C 
-<br>
+This repository contains programs in the C programming language related to Data Structures.
+<br><br>
 <img src="https://github.com/madhurimarawat/Data-structure-using-C/assets/105432776/27d4b87e-5b9a-46de-9a95-a8bf45b021fc" height=400>
 
 ---
