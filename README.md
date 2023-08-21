@@ -60,3 +60,12 @@ This repository contains programs in the C programming language related to Data 
 --> The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph.<br><br>
 --> More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ).<br> <br>
 --> The graph is denoted by G(E, V).
+
+---
+
+# Thanks for Visiting 😄
+
+Drop a 🌟 if you find this repository useful.<br><br>
+If you have any doubts or suggestions, feel free to reach me.<br><br>
+📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
+<a href ="mailto:rawatmadhurima@gmail.com"><img src="https://www.freepnglogos.com/uploads/arrow-with-e-mail-logo-png-7.png" height=35 width=30 > </a>
