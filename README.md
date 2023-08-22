@@ -15,6 +15,20 @@ This repository contains programs in the C programming language related to Data 
 
 ---
 # Mode of Execution used <img src="https://logodix.com/logo/1709678.png" height=30px width=30px>
+<h2>GCC Compiler</h2>
+--> GCC stands for GNU C/C++ Compiler.<br><br>
+--> To begin with GCC, visit the official website &nbsp;<a href="https://gcc.gnu.org/"><img src="https://logodix.com/logo/1709678.png" height=30px width=30px></a><br><br>
+--> Download GCC according to the platform being used like Linux, MacOs or Windows.<br><br>
+--> Follow the setup wizard.<br><br>
+--> Write c code in any text editor or IDE and save it with .c extention.<br><br>
+--> Then just open the console and run this command -<br><br>
+
+```
+gcc filename.c -o Output
+```
+--> Filename is the name of the C script file and Output is the name of the output file.<br><br>
+--> After this command is executed, if the code is successfully compiled output file will be saved in the same location as the code file.<br><br>
+--> Once this Output file is executed in command prompt, the output will be displayed.
 
 ---
 
@@ -23,7 +37,7 @@ This repository contains programs in the C programming language related to Data 
 
 ---
 
-<h1>Data Structures</h1>
+# Data Structures
 --> A data structure is a storage that is used to store and organize data. <br><br>
 --> It is a way of arranging data on a computer so that it can be accessed and updated efficiently.<br>
 
