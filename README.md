@@ -14,6 +14,9 @@ This repository contains programs in the C programming language related to Data 
 --> It is Middle Level Programming language and gives more control to Programmer.
 
 ---
+# Mode of Execution used <img src="https://logodix.com/logo/1709678.png" height=30px width=30px>
+
+---
 
 # C Programming Features
 <img src="https://github.com/madhurimarawat/Data-structure-using-C/assets/105432776/3d99adf0-a064-4ded-a54e-0b930869c9d4" height=400 width=650>
