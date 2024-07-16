@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // For dynamic memory allocation
 
-#include<stdlib.h>
+#include <stdlib.h>
 
 int n;
 
@@ -13,147 +13,197 @@ using the operations. */
 
 // Making structure for stack
 
-struct stack{
+struct stack
+{
 
-int data;
-struct stack *next;};
+  int data;
+  struct stack *next;
+};
 
 // Head Pointer
 struct stack *head;
 
 // Function for displaying stack
 
-void display(struct stack* Node){
+void display(struct stack *Node)
+{
 
-printf("Stack is:\t");
+  printf("Stack is:\t");
 
-while(Node!=NULL){
-printf("%d\t",Node->data);
-Node=Node->next;}printf("\n");}
+  while (Node != NULL)
+  {
+    printf("%d\t", Node->data);
+    Node = Node->next;
+  }
+  printf("\n");
+}
 
 // Popping/Deleting element at top of stack
 
-void pop(){
+void pop()
+{
 
-if(head==NULL){
+  if (head == NULL)
+  {
 
-printf("\nStack is empty");}
+    printf("\nStack is empty");
+  }
 
-else{
-struct stack* ptr;
-ptr=head;
-head= ptr->next;
-free(ptr);display(head);}}
+  else
+  {
+    struct stack *ptr;
+    ptr = head;
+    head = ptr->next;
+    free(ptr);
+    display(head);
+  }
+}
 
 // Inserting element at top of stack
 
-void push ()  {  
+void push ()
+{
 
-    int val;  
-    
-    struct stack* new=(struct stack*)malloc(sizeof(struct stack));
+  int val;
 
-if(new==NULL){
-printf("\nOVERFLOW");}
+  struct stack *new = (struct stack *)malloc(sizeof(struct stack));
 
-else {
-printf("Enter element value: "); 
-scanf("%d",&val);
+  if (new == NULL)
+  {
+    printf("\nOVERFLOW");
+  }
 
-new->data=val;
-new->next=head;
+  else
+  {
+    printf("Enter element value: ");
+    scanf("%d", &val);
 
-head = new; } display(head);   }
+    new->data = val;
+    new->next = head;
+
+    head = new;
+  }
+  display(head);
+}
 
 // Checking if stack is empty
 
-void isempty(){
+void isempty()
+{
 
-if(head!=NULL){
+  if (head != NULL)
+  {
 
-printf("Stack is Not Empty");}
-else {printf("Stack is Empty");}
+    printf("Stack is Not Empty");
+  }
+  else
+  {
+    printf("Stack is Empty");
+  }
 }
 
 // Checking if stack is full
 
-void isfull(){
+void isfull()
+{
 
-struct stack* new=(struct stack*)malloc(sizeof(struct stack));
+  struct stack *new = (struct stack *)malloc(sizeof(struct stack));
 
-if(new==NULL){
-printf("Stack is  Full");}
-else {printf("Stack is Not Full");}
+  if (new == NULL)
+  {
+    printf("Stack is  Full");
+  }
+  else
+  {
+    printf("Stack is Not Full");
+  }
 
 }
 
 // Seeing element at top of stack
 
-void peek(){
-printf("%d",head->data);}
+void peek()
+{
+  printf("%d", head->data);
+}
 
 // Looking at size of stack
 
-void size(int t){
+void size(int t)
+{
 
-printf("The size of stack is:%d",t);}
+  printf("The size of stack is:%d", t);
+}
 
 // Menu function
 
-void choice(){
+void choice()
+{
 
-int c,e;
+  int c, e;
 
-printf("Enter 1 for Push, 2 for Pop, 3 for Peek , 4 for Size,5 for is empty or 6 for is full: ");
-scanf("%d",&c);
+  printf("Enter 1 for Push, 2 for Pop, 3 for Peek , 4 for Size,5 for is empty or 6 for is full: ");
+  scanf("%d", &c);
 
-switch(c){
+  switch (c)
+  {
 
-case 1: 
+    case 1:
 
-push();
-break;
-
-
-case 2:
-
-pop(); break;
+      push();
+      break;
 
 
-case 3:
+    case 2:
 
-peek(); break;
-
-
-case 4:
-
-size(n);  break;
+      pop();
+      break;
 
 
-case 5:
+    case 3:
 
-isempty();break;
-
-
-case 6:
-
-isfull();break;
+      peek();
+      break;
 
 
-default:
+    case 4:
 
-printf("Invalid case!!");} }
+      size(n);
+      break;
+
+
+    case 5:
+
+      isempty();
+      break;
+
+
+    case 6:
+
+      isfull();
+      break;
+
+
+    default:
+
+      printf("Invalid case!!");
+  }
+}
 
 // Main function
 
-int main(){
+int main()
+{
 
-printf("Enter number of elements:");
-scanf("%d",&n);
+  printf("Enter number of elements:");
+  scanf("%d", &n);
 
-for(int i=0;i<n;i++){
+  for (int i = 0; i < n; i++)
+  {
 
-push();}
+    push();
+  }
 
-choice();
-return 0;}
+  choice();
+  return 0;
+}

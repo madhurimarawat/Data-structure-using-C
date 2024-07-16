@@ -1,25 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
 // For string functions
-#include<string.h>
+#include <string.h>
 
 // Code for Finding length of string
 
 // Main function
 
-void main(){
+void main()
+{
 
 // Declaring String
-char str[100];
+  char str[100];
 
-int l;
+  int l;
 
 // Taking Input
- printf("Enter a string:");
-gets(str);
+  printf("Enter a string:");
+  gets(str);
 
 // Finding Length of string
-l=strlen(str);
+  l = strlen(str);
 
- printf("Entered string  length is: %d",l);
+  printf("Entered string  length is: %d", l);
 }
